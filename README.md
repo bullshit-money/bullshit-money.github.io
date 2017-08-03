@@ -1,1 +1,0 @@
-# bullshit-money.github.io
