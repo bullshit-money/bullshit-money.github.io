@@ -1,0 +1,26 @@
+html, body{
+	height: 100%;
+	overflow: auto;
+}
+
+body{
+	background-color:#99CCFF;
+	background-size:cover;
+	position: fixed;
+	height: 100%;
+    width: 100%;
+    top: 20%;
+    left: 15%;
+	right: 15%;
+    margin-top: -100px;
+	margin-left: -200px;
+	margin-right: -200px;
+	overflow: auto;
+}
+
+.page-style{
+	background-color:#99CCFF;
+	color:white;
+	font-size: 15pt;
+	font-family: sans-serif;
+}
