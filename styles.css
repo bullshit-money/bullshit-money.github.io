@@ -9,12 +9,7 @@ body{
 	background-size:cover;
 	position: fixed;
 	height: 100%;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
-	margin-right: -200px;
+	width: 100%;
 	overflow: auto;
 }
 .homepage-BSH-network{
@@ -22,17 +17,37 @@ body{
 }
 
 .homepage-BSH-network img{
-	width: 100%;	
+	width: 100%;
 	margin-top:0px;
 }
 
 .heading{
-	width:700px;
-	height:300px;
-	margin:-200px;
+	/* center element of known size, parent must be position: relative */
 	position:absolute;
-	top:0px
+	width: 700px;
+	height:300px;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -350px; /* almost center */
+ /*******************************************************************/
 }
+
+.heading table {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	color:white;
+	font-size: 15pt;
+	font-family: sans-serif;
+	font-variant: small-caps;
+}
+
+.heading table td {
+/*	border: 1px solid black ; */
+	text-align: center;
+	width: 33%;
+}
+
 
 .title1{
 	display: block;
@@ -53,48 +68,14 @@ body{
 
 .title3{
 	display: block;
-	margin-top:20%;
-	margin-bottom:20%;
 	text-align:center;
 	color:white;
 	font-size: 15pt;
 	font-family: sans-serif;
-}
+	width: 380px;
+	line-height: 2em;
 
-.ERC20-heading{
-	display: inline-block;
-	margin-top:0px;
-	margin-left: 5%;
-	margin-bottom:15px;
-	text-align:center;
-	color:white;
-	font-size: 15pt;
-	font-family: sans-serif;
-	font-variant: small-caps;
-}
-
-.purchase-BSH-heading{
-	display: inline-block;
-	margin-top:0px;
-	margin-bottom:0px;
-	margin-left:6%;
-	text-align:center;
-	color:white;
-	font-size: 15pt;
-	font-family: sans-serif;
-	font-variant: small-caps;
-}
-
-.developing-now{
-	display: inline-block;
-	margin-top:0px;
-	margin-bottom:0px;
-	margin-left:6%;
-	text-align:center;
-	color:white;
-	font-size: 15pt;
-	font-family: sans-serif;
-	font-variant: small-caps;
+	margin: 10% auto 10% auto;
 }
 
 .register{
@@ -108,7 +89,7 @@ body{
 	font-family: sans-serif;
 	font-weight: bold;
 	border-radius: 5px;
-	
+
 	transition: background-color 1000ms, color
 	1000ms;
 }
@@ -116,7 +97,7 @@ body{
 	background-color: rgba(255, 255, 255, 1);
 	color: #222;
 	cursor: pointer;
-	
+
 	transition: background-color 1000ms, color
 	1000ms;
 }
@@ -182,9 +163,4 @@ body{
     content: "";
     border: 2px solid white;
     border-width: 0px 0 2px 2px;
-}
-
-.inner-ul {
-  height:50px;
-  overflow-y: auto;
 }
