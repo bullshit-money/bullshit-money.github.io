@@ -219,7 +219,7 @@ $(document).ready(function () {
     --------------------------------------*/
 	$(".subscribe-form").ajaxChimp({
 		callback: mailchimpResponse,
-		url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
+		url: "https://money.us17.list-manage.com/subscribe/post?u=0dfb7568551003afbd74e254e&amp;id=e1b2665547" // Replace your mailchimp post url inside double quote "".  
 	});
 
 	function mailchimpResponse(resp) {
